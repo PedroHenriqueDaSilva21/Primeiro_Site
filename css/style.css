@@ -17,7 +17,7 @@ html {
     width: 100%;
     height: 800px;
     min-height: 500px;
-    background-image: url("../images/loki.jpeg");
+    background-image: url("../images/adoravel-cachorro-basenji-marrom-e-branco-sorrindo-e-dando-mais-uns-cinco-isolado-no-branco.jpg");
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -34,7 +34,7 @@ html {
 #section-2{
     background-color: #8dbeda;
     width: 100%;
-    height: 600px;
+    height: 2000px;
 }
 
 .footer{
@@ -152,4 +152,50 @@ h2{
     align-items: center;
     justify-content: center;
     padding: 1em;
+}
+
+h4{
+    font-size: 16px;
+    color: #ffffff;
+    padding: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table{
+    display: inline;
+    position: relative;
+    float: left;
+}
+
+.video{
+    display: inline;
+    position: relative;
+    float: right;
+    margin-left: 20%;
+    padding: 1em;
+    padding-top: 1em;
+}
+
+#loki-section, #max-section, #theo-section{
+    padding: 11em;
+}
+
+#max-section, #theo-section{
+    margin-top: 10em;
+}
+
+
+#max-section .video{
+    display: inline;
+    position: relative;
+    float: left;
+    margin-left: 0%;
+    padding: 1em;
+    padding-top: 1em;
+}
+
+#max-section table{
+    display: inline;
+    position: relative;
+    float: right;
 }
