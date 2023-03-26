@@ -168,7 +168,7 @@ h4{
     font-size: 16px;
     color: #357599;
     padding: 1em;
-    font-family: 'poppins-regular';
+    font-family: 'poppins-light';
 }
 
 table{
@@ -273,4 +273,9 @@ hr{
 @font-face {
     font-family: 'poppins-bold';
     src: url(../fontes/poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'poppins-light';
+    src: url(../fontes/poppins/Poppins-Light.ttf);
 }
