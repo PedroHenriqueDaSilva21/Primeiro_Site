@@ -44,7 +44,7 @@ html {
 #section-2{
     background-color: #63b1d2;
     width: 100%;
-    height: 2000px;
+    height: 2200px;
 }
 
 .footer{
@@ -166,7 +166,7 @@ h2{
 
 h4{
     font-size: 16px;
-    color: #ffffff;
+    color: #357599;
     padding: 1em;
     font-family: 'poppins-regular';
 }
@@ -175,7 +175,9 @@ table{
     display: inline;
     position: relative;
     float: left;
-    width: 400px;
+    width: 500px;
+    background-color: #fff;
+    border-radius: 5px;
 }
 
 .video{
@@ -200,7 +202,7 @@ table{
     display: inline;
     position: relative;
     float: left;
-    margin-left: 0%;
+    margin-left: 100px;
     padding: 1em;
     padding-top: 1em;
 }
@@ -209,11 +211,51 @@ table{
     display: inline;
     position: relative;
     float: right;
+    width: 350px;
+    margin-right: 60px;
+}
+
+#loki-section table{
+    width: 350px;
+    margin-left: 100px;
+}
+
+#loki-section .video{
+    margin-right: 290px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+#theo-section table{
+    width: 330px;
+    margin-left: 100px;
+}
+
+#theo-section .video{
+    margin-right: 290px;
+    margin-top: 10px;
+    position: absolute;
 }
 
 .video img{
     border-radius: 5px;
     margin-top: 10px;
+}
+
+.ficha{
+    width: 100%;
+    height: 60px;
+    background-color: #357599;
+}
+
+.ficha h2{
+    font-size: 22px;
+}
+
+.fotopata{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 4px;
 }
 
 hr{
